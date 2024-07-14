@@ -1,0 +1,184 @@
+#search_box{
+    border: 5px solid;
+    margin: auto;
+    width: 30%  ;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+h1 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.login-div {
+    border: 5px solid;
+    margin: auto;
+    width: 30%  ;
+    padding: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size:large;
+    font-weight:500px;
+}
+
+#submit-btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4290c4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 50px;
+  }
+  
+  #submit-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #submit-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #submit-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #submit-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 3px solid #ccc;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  input:focus {
+    border: 3px solid #555;
+  }
+
+  label{
+    font-size: larger;
+    font-weight: 550;
+    margin-bottom: 50px;
+  }
+  select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #f1f1f1;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-size: larger;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 500;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+.seatList{
+    height: 400px;
+    overflow-x:auto;
+}  
+
+#purchase-btn {
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #4290c4;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin-top: 50px;
+    float: right;
+  }
+
+#purchase-btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  #purchase-btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  #purchase-btn:hover span {
+    padding-right: 25px;
+  }
+  
+  #purchase-btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+.ticket_info{
+    width: 40% ;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
